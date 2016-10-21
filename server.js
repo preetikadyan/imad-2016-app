@@ -10,17 +10,17 @@ app.get('/', function (req, res) {
 });
 
 
-app.get('/article-one',function(rey, req)
+app.get('/article-one',function(req, res)
 {
    res.send('article one is requested and will be served over here'); 
 });
 
-app.get('/article-two',function(rey, req)
+app.get('/article-two',function(req, res)
 {
    res.send('article-two is requested and will be served over here');
 });
 
-app.get('/article-three',function(rey, req)
+app.get('/article-three',function(req, res)
 {
    res.send('article-three is requested and will be served over here');    
 });
