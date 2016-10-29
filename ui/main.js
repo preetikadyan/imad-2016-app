@@ -20,7 +20,7 @@ button.onclick = function(){
         // no need to do anything
     };
     //make the request
-    request.open('GET','http://http://preetikadyan.imad.hasura-app.io/counter',true);
+    request.open('GET','http://preetikadyan.imad.hasura-app.io/counter',true);
     request.send(null);
    
 };
